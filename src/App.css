@@ -89,3 +89,60 @@
   color: #333;
   line-height: 1.4;
 }
+
+
+/* admission form css start here */
+
+.form-container{
+  width: 90%;
+  max-width: 500px;
+  margin: 10px auto;
+  border: 1px solid black;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 8px;
+  padding: 35px;
+}
+
+.form-container > form{
+  width: 100%;
+}
+
+.form-container div label{
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.form-container div input, .form-container div select{
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  transition: all 0.2s ease;
+}
+input:focus, select:focus {
+  box-shadow: 0 0 5px #0066ff;
+}
+
+ .admission-btn{
+  width: 100%;
+  padding: 12px;
+  background: #0066ff;
+  color: white;
+  border: none;
+  margin-top: 15px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.admission-btn:hover {
+  background: #004fcc;
+}
+
+.submitted-box{
+  line-height: 2;
+}
