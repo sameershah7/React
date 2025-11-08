@@ -1,8 +1,9 @@
 import React from "react";
 import { Routes, Route } from "react-router";
-
 import "./App.css";
-import Home from "./components/Home";
+
+import Home from "./pages/Home";
+
 import Navbar from "./components/Navbar";
 import SearchFootballer from "./components/SearchFootballer_intro_hooks";
 import AdmissionForm from "./AdmissionForm";

@@ -11,15 +11,14 @@ export default function Navbar() {
       justifyContent: "space-between",
       alignItems: "center",
       padding: "12px 18px",
-      background: "#f5f5f5", // soft light background
-      borderBottom: "1px solid #ddd"
+      background: "#ff7f50",
     },
-
+    
     logo: {
       fontSize: "22px",
       fontWeight: "700",
-      color: "#222",
       textDecoration: "none",
+      color: "#212121",
     },
 
     ul: {
@@ -32,22 +31,22 @@ export default function Navbar() {
 
     link: {
       textDecoration: "none",
-      color: "#444",
-      fontWeight: 500,
+      color: "#212121",
+      fontWeight: "bold",
       padding: "6px 10px",
       borderRadius: "5px",
       transition: "0.2s ease-in-out",
     },
 
     hoverStyle: {
-      background: "#e0e0e0"
+      background: "#ff5722",
+      color: "white",
     }
   };
 
   return (
     <nav style={styles.nav}>
-      
-      {/* ✅ Logo as home link */}
+
       <Link to="/" style={styles.logo}>MyPortfolio</Link>
 
       <ul style={styles.ul}>
